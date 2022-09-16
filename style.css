@@ -1,0 +1,165 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background: #ff4c68;
+
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.navbar-brand {
+
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button-download {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    position: absolute;
+    right: 25%;
+    width: 19%;
+    transform: rotate(19deg);
+}
+
+#features {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    /* margin-bottom: 15px; */
+}
+
+.feature-box h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.feature-box p {
+    color: #8f8f8f;
+    padding: 0 35px;
+}
+
+.logo {
+    color: #ef8175;
+    font-size: 49px;
+    padding-bottom: 12px;
+
+
+}
+
+.logo:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+
+    background: #ef8175;
+    text-align: center;
+    color: white;
+
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 75px;
+
+}
+
+.image-dog {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background: #ef8175;
+    text-align: center;
+    padding-bottom: 6%;
+}
+
+.brand {
+    width: 14%;
+    margin: 0 10px 30px;
+}
+
+@media (max-width:1028px) {
+    .title-image {
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+
+    .row {
+        text-align: center;
+    }
+
+    #new1 {
+        width: 92%;
+    }
+
+}
+
+#cta {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    height: 350px;
+    background: #ff4c68;
+    padding: 4% 25%;
+    text-align: center;
+
+}
+
+#cta h3 {
+    font-size: 39px;
+    margin-bottom: 34px;
+}
+
+.buttom-bottom {
+    margin: 0 23px 0 0;
+}
+
+.btn {
+    border-radius: none;
+
+}
+
+#footer {
+    text-align: center;
+    height: 100px;
+
+    padding-top: 4%;
+}
+#footer p{
+    color: #8f8f8f;;
+}
